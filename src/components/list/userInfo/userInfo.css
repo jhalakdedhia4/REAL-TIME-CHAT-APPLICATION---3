@@ -1,0 +1,73 @@
+.userInfo {
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px; /* Optional: adds a softer border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds subtle shadow for depth */
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px; /* Increased gap for better spacing */
+}
+
+.user img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff; /* Optional: adds a border around the profile image */
+}
+
+.icons {
+    display: flex;
+    gap: 12px; /* Slightly increased gap for better icon separation */
+}
+
+.icons img {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.icons img:hover {
+    transform: scale(1.1); /* Slight scale effect on hover */
+}
+
+
+
+
+/* .userInfo{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .user{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+
+    .icons {
+        display: flex;
+        gap: 10px;
+
+        img {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+    }
+} */

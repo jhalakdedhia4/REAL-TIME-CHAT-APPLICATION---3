@@ -1,0 +1,295 @@
+.chatList {
+  flex: 1;
+  overflow-y: auto;
+
+  .search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+    .searchBar {
+      flex: 1;
+      background-color: rgba(17, 25, 40, 0.5);
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-radius: 10px;
+      padding: 10px;
+
+      input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        flex: 1;
+      }
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .add {
+      width: 36px;
+      height: 36px;
+      background-color: rgba(17, 25, 40, 0.5);
+      padding: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .item {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 15px; /* Reduced gap between image and text */
+    padding: 10px 15px; /* Reduced padding */
+    cursor: pointer;
+    border-bottom: 1px solid #dddddd35;
+
+    img {
+      width: 40px; /* Reduced size */
+      height: 40px; /* Reduced size */
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .texts {
+      display: flex;
+      flex-direction: column; 
+      gap: 10px; /* Space between text elements */
+
+      span {
+        font-weight: 500;
+        font-size: 16px; /* Adjust font size */
+      }
+
+      p {
+        font-size: 14px; /* Reduced font size */
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+.chatList::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* .chatList {
+  flex: 1;
+  overflow-y: auto;
+  background: linear-gradient(135deg, rgba(10, 20, 40, 0.9), rgba(30, 50, 80, 0.9));
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  -webkit-overflow-scrolling: touch;
+}
+
+.chatList::-webkit-scrollbar {
+  display: none;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  background-color: rgba(17, 25, 40, 0.85);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.searchBar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  padding: 8px 12px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.searchBar:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.searchBar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-size: 15px;
+}
+
+.searchBar img {
+  width: 20px;
+  height: 20px;
+}
+
+.add {
+  width: 36px;
+  height: 36px;
+  background-color: rgba(50, 60, 90, 0.8);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add:hover {
+  background-color: rgba(50, 60, 90, 1);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: rgba(17, 25, 40, 0.8);
+}
+
+.item img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.texts .name {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.texts .message {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 768px) {
+  .search,
+  .item {
+    padding: 10px 14px;
+  }
+
+  .searchBar {
+    gap: 6px;
+    padding: 6px 10px;
+  }
+
+  .add {
+    width: 30px;
+    height: 30px;
+  }
+
+  .item img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .texts .name {
+    font-size: 12px;
+  }
+
+  .texts .message {
+    font-size: 10px;
+  }
+} */
+
+
+
+
+
+/* .chatList {
+  flex: 1;
+  overflow: scroll;
+  .search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+    .searchBar {
+      flex: 1;
+      background-color: rgba(17, 25, 40, 0.5);
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-radius: 10px;
+      padding: 10px;
+
+      input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        flex: 1;
+      }
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .add {
+      width: 36px;
+      height: 36px;
+      background-color: rgba(17, 25, 40, 0.5);
+      padding: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #dddddd35;
+
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .texts {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      span {
+        font-weight: 500;
+      }
+
+      p {
+        font-size: 14px;
+        font-weight: 300;
+      }
+    }
+  }
+} */

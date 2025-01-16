@@ -1,0 +1,170 @@
+.login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 80px; /* Reduced gap for better alignment */
+    padding: 20px; /* Add padding for responsiveness */
+}
+
+.item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; /* Reduced gap between the image and button */
+    text-align: center; /* Center-align text content */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between input boxes */
+    width: 100%;
+    max-width: 400px;
+}
+
+input {
+    width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(17, 25, 40, 0.6);
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px; /* Additional space if needed */
+}
+
+label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px; /* Slightly reduce font size for subtlety */
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    object-fit: cover;
+    opacity: 0.7; /* Slightly increase visibility */
+    transition: opacity 0.3s ease; /* Smooth hover effect */
+}
+
+img:hover {
+    opacity: 1; /* Fully visible on hover */
+}
+
+button {
+    width: 100%; /* Button takes full width */
+    max-width: 350px; /* Add max width for better alignment */
+    padding: 15px; /* Adjust padding for consistency */
+    border: none;
+    background-color: #1f8ef1;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600; /* Increase weight for emphasis */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add smooth transitions */
+}
+
+button:hover {
+    background-color: #167acb; /* Slightly darker shade on hover */
+    transform: scale(1.05); /* Add scaling for interactivity */
+}
+
+button:active {
+    transform: scale(0.98); /* Subtle shrink effect */
+}
+
+.separator {
+    height: 80%;
+    width: 2px;
+    background-color: #dddddd35;
+    transition: background-color 0.3s ease; /* Smooth transitions */
+}
+
+.separator:hover {
+    background-color: #bbbbbb35; /* Slightly brighter on hover */
+}
+
+
+
+
+
+/* .login{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.item{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+}
+
+form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+}
+
+input{
+                padding: 20px;
+                border: none;
+                outline: none;
+                background-color: rgba(17, 25, 40, 0.6);
+                color: white;
+                border-radius: 5px;
+}
+            
+
+label {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                cursor: pointer;
+                text-decoration: underline;
+}
+
+img{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 10px;
+                    object-fit: cover;
+                    opacity: 0.6;
+}
+                
+
+button{
+                width: 100%;
+                padding: 20px;
+                border: none;
+                background-color: #1f8ef1;
+                color: white;
+                border-radius: 5px;
+                cursor: pointer;
+                font-weight: 500;
+}
+
+.separator{
+        height: 80%;
+        width: 2px;
+        background-color: #dddddd35;
+}
+ */
